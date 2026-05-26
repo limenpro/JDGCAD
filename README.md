@@ -24,13 +24,11 @@
 ---
 
 
-
 ## 📊Evaluation Results
 
 <img src="assets/results.png">
 
 ---
-
 
 ## 🎯Quick Start
 
@@ -40,7 +38,6 @@
 git clone https://github.com/limenpro/JDGCAD.git
 cd JDGCAD/src
 ```
-
 
 
 ### :two:Install dependencies
