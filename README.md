@@ -3,7 +3,7 @@
 
 
 
-## 🔍Overviewd
+## 🔍Overview
 
 
 **JDGCAD** (Joint Detector-Guided Contextual Attention Decoding) is a training-free and lightweight decoding framework designed to mitigate **context faithfulness hallucinations** in Large Language Models (LLMs) — **without finetuning the LLM**.
