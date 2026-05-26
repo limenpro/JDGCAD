@@ -8,11 +8,11 @@
 
 **JDGCAD** (Joint Detector-Guided Contextual Attention Decoding) is a training-free and lightweight decoding framework designed to mitigate **context faithfulness hallucinations** in Large Language Models (LLMs) — **without finetuning the LLM**.
 
-**Single-pass decoding with zero editing overhead:** Real-time alignment of output distributions within a single decoding process, eliminating the need for multiple passes or post-hoc editing pipelines.
-**Non-linear joint attention detection:** Leverages a hybrid LR+MLP architecture to filter out redundant feature heads and capture intricate, non-linear feature interactions from internal attention maps.
-**Dynamic uncertainty-driven guidance:** Couples token-level uncertainty signals (MSP and Normalized Entropy) with the joint detector's scores to precisely reinforce context-relevant tokens during highly uncertain generation steps.
-**Robustness in long-context and knowledge-conflict scenarios:** Demonstrates exceptional cross-domain and data-size independence, outperforming prior linear approaches in noisy or conflict-heavy environments.
-**Plug-and-play generalizability:** Consistently enhances exact-match accuracy across diverse open-domain QA tasks, fully compatible with both pre-trained and instruction-tuned models (e.g., LLaMA and Mistral families).
+- **Single-pass decoding with zero editing overhead:** Real-time alignment of output distributions within a single decoding process, eliminating the need for multiple passes or post-hoc editing pipelines.
+- **Non-linear joint attention detection:** Leverages a hybrid LR+MLP architecture to filter out redundant feature heads and capture intricate, non-linear feature interactions from internal attention maps.
+- **Dynamic uncertainty-driven guidance:** Couples token-level uncertainty signals (MSP and Normalized Entropy) with the joint detector's scores to precisely reinforce context-relevant tokens during highly uncertain generation steps.
+- **Robustness in long-context and knowledge-conflict scenarios:** Demonstrates exceptional cross-domain and data-size independence, outperforming prior linear approaches in noisy or conflict-heavy environments.
+- **Plug-and-play generalizability:** Consistently enhances exact-match accuracy across diverse open-domain QA tasks, fully compatible with both pre-trained and instruction-tuned models (e.g., LLaMA and Mistral families).
 
 
 
