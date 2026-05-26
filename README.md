@@ -37,7 +37,7 @@
 ### :one:Clone this repo
 
 ```shell
-git clone https://github.com/uestc-huangyw/DAGCD.git
+git clone https://github.com/limenpro/JDGCAD.git
 cd JDGCAD/src
 ```
 
