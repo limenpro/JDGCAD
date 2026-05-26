@@ -1,0 +1,15 @@
+# 屏蔽 VS Code 本地配置
+.vscode/
+
+# 屏蔽 Python 编译缓存和虚拟环境
+__pycache__/
+*.pyc
+.venv/
+env/
+.DS_Store
+# 如果你把 LaTeX 编译文件也放同一个目录了，可以屏蔽这些：
+*.aux
+*.log
+*.pdf
+*.toc
+*.synctex.gz
