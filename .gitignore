@@ -10,6 +10,5 @@ env/
 # 如果你把 LaTeX 编译文件也放同一个目录了，可以屏蔽这些：
 *.aux
 *.log
-*.pdf
 *.toc
 *.synctex.gz
